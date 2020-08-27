@@ -8,7 +8,7 @@ from flask_socketio import emit, send, SocketIO
 from pyms.flask.app import Microservice
 
 __author__ = "Abd0hrz"
-__email__ = ""
+__email__ = "@gmail.com"
 __version__ = "0.1.0"
 
 socketio = SocketIO()
