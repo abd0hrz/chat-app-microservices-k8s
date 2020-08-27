@@ -2,8 +2,8 @@ import os
 
 from flask import url_for, render_template
 
-__author__ = "Alberto Vara"
-__email__ = "a.vara.1986@gmail.com"
+__author__ = "Abd0hrz"
+__email__ = ""
 __version__ = "0.1.0"
 
 from pyms.flask.app import Microservice
