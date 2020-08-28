@@ -1,15 +1,42 @@
-# Chat App microservices
+# 💬 Chat App Microservices Example
 
-Example of 3 microservices and a database working in a Kubernetes cluster.
+This project demonstrates a real-world implementation of a chat application using microservices architecture, deployed within a Kubernetes cluster. It serves as a practical showcase for our [PyMS](https://github.com/your-org/pyms) library, its project template, and scaffold.
 
-The objetive of this project is to show a real example of our library [PyMS](https://github.com/python-microservices/pyms),
- [the template](https://github.com/python-microservices/microservices-template) and
-the [scaffold](https://github.com/python-microservices/microservices-scaffold).
+---
 
-# The project
-- **chat_front:** Is a simple webpage that sends and receives messages from chat_svc through socket io
-- **chat_svc:** Receives messages from chat_front and sends these messages to  chat_db to store this information
-- **chat_db:** Receives data from chat_svc and stores this information in a SQLite DB.
+## 🎯 Objective
+
+To provide a working example of a microservices-based system built with PyMS, including real-time communication and persistent storage. This example helps developers understand the structure and interaction of microservices within a containerized environment.
+
+---
+
+## 📦 Microservices Overview
+
+### 1. `chat_front` (Frontend Service)
+- A simple web interface.
+- Uses **Socket.IO** to send and receive messages in real time.
+- Connects to `chat_svc` for messaging.
+
+### 2. `chat_svc` (Chat Service)
+- Handles incoming messages from `chat_front`.
+- Forwards messages to `chat_db` for persistence.
+- Acts as a middleware between frontend and backend.
+
+### 3. `chat_db` (Database Service)
+- Stores chat messages in a **SQLite** database.
+- Receives data from `chat_svc` via HTTP or gRPC (depending on implementation).
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python** with [PyMS](https://github.com/your-org/pyms)
+- **Socket.IO**
+- **SQLite**
+- **Kubernetes** for orchestration
+- **Docker** for containerization
+
+---
 
 ## Architecture
 
