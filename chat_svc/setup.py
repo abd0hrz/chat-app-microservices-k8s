@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2018 by Alberto Vara <a.vara.1986@gmail.com>
+
 import codecs
 import os
 
