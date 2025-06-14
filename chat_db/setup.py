@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2018 by Alberto Vara <a.vara.1986@gmail.com>
+
 import codecs
 import os
 
@@ -37,7 +37,7 @@ setup(
     license="GPLv3",
     platforms=["any"],
     keywords="python, microservices",
-    url='https://github.com/python-microservices/microservices-chat',
+    url='https://github.com/abd0hrz/chat-app-microservices-k8s',
     test_suite='nose.collector',
     packages=find_packages(),
     include_package_data=True,

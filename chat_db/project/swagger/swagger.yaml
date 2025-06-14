@@ -4,9 +4,9 @@ info:
   description: ""
   version: "1.0.0"
   title: "Chat"
-  termsOfService: "https://github.com/python-microservices/microservices-chat"
+  termsOfService: "https://github.com/abd0hrz/chat-app-microservices-k8s"
   contact:
-    email: "a.vara.1986@gmail.com"
+    email: ""
 tags:
 - name: "project"
   description: "Everything about your project"
