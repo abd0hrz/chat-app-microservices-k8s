@@ -1,12 +1,10 @@
-# Chat microservices
+# Chat App microservices
 
 Example of 3 microservices and a database working in a Kubernetes cluster.
 
 The objetive of this project is to show a real example of our library [PyMS](https://github.com/python-microservices/pyms),
  [the template](https://github.com/python-microservices/microservices-template) and
 the [scaffold](https://github.com/python-microservices/microservices-scaffold).
-
-The tutorial of "how to create a cluster" is based of this [bitnami tutorial](https://docs.bitnami.com/kubernetes/get-started-kubernetes/)
 
 # The project
 - **chat_front:** Is a simple webpage that sends and receives messages from chat_svc through socket io
